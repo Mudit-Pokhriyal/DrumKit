@@ -1,0 +1,42 @@
+html{
+    background: url(http://i.imgur.com/b9r5sEL.jpg) ;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+.keys{
+    display: flex;
+    flex: 1;
+    align-items: center
+    justify-content : center;
+    margin-top:200px;
+}
+.key{
+    border: .4rem solid black;
+    height: 60px;
+    width: 10rem;
+    padding: 1rem 0.5rem;
+    color: white;   
+    margin: 1rem;
+    text-align: center;
+    background: (0,0,0,0.4);
+    transition: all 0.5s ease;
+}
+.playing{
+    border-color: orange;
+    transform: scale(1.1);
+}
+kbd{
+    font-size: 4rem;
+    display: block;
+}
+
+
+.sound{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 14px;
+}
